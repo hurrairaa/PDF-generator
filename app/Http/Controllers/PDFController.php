@@ -9,11 +9,10 @@ use Barryvdh\DomPDF\Facade\Pdf;
 class PDFController extends Controller
 {
 
-    public function generatePDF()
+    public function generatePDF(Request $request)
     {
-        $data = [
-            'date' => date('m/d/Y')
-        ];
+
+        $data = $request->all();
           
         $pdf = PDF::loadView('pdf', $data);
     
