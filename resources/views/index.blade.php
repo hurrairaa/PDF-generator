@@ -153,7 +153,7 @@
                 </div>
 
             
-                <button class="btn-primary">Download som PDF</button>
+                <button class="btn-primary">Download PDF</button>
             </form>
         </div>
     </body>
